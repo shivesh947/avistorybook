@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#FF8A3D"/>
+  <circle cx="256" cy="208" r="112" fill="#F6C7A1"/>
+  <path d="M144 192c16-88 208-88 224 0-32-40-192-40-224 0z" fill="#3D2914"/>
+  <circle cx="214" cy="208" r="16" fill="#1A2B3C"/>
+  <circle cx="298" cy="208" r="16" fill="#1A2B3C"/>
+  <path d="M224 250c20 24 44 24 64 0" stroke="#C96B5A" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <rect x="160" y="310" width="192" height="144" rx="52" fill="#FFE08A"/>
+  <text x="256" y="405" text-anchor="middle" font-size="84" font-weight="800" fill="#C45A1A" font-family="Arial,sans-serif">Avi</text>
+</svg>
