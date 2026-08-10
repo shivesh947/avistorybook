@@ -1,10 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
-  <rect width="512" height="512" rx="112" fill="#FF8A3D"/>
-  <circle cx="256" cy="208" r="112" fill="#F6C7A1"/>
-  <path d="M144 192c16-88 208-88 224 0-32-40-192-40-224 0z" fill="#3D2914"/>
-  <circle cx="214" cy="208" r="16" fill="#1A2B3C"/>
-  <circle cx="298" cy="208" r="16" fill="#1A2B3C"/>
-  <path d="M224 250c20 24 44 24 64 0" stroke="#C96B5A" stroke-width="12" fill="none" stroke-linecap="round"/>
-  <rect x="160" y="310" width="192" height="144" rx="52" fill="#FFE08A"/>
-  <text x="256" y="405" text-anchor="middle" font-size="84" font-weight="800" fill="#C45A1A" font-family="Arial,sans-serif">Avi</text>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB703"/>
+      <stop offset="0.45" stop-color="#FF8A3D"/>
+      <stop offset="1" stop-color="#FF5C8A"/>
+    </linearGradient>
+    <linearGradient id="book" x1="160" y1="360" x2="352" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2EC4B6"/>
+      <stop offset="1" stop-color="#00A8E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- app tile -->
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <circle cx="256" cy="236" r="168" fill="#FFF7ED" opacity="0.22"/>
+
+  <!-- curly hair back -->
+  <path
+    d="M128 220
+       C116 140 170 88 256 84
+       C342 88 396 140 384 220
+       C392 280 372 320 352 340
+       C340 310 332 270 328 240
+       L184 240
+       C180 270 172 310 160 340
+       C140 320 120 280 128 220Z"
+    fill="#5C3317"
+  />
+
+  <!-- face -->
+  <ellipse cx="256" cy="230" rx="118" ry="112" fill="#F6C9B0"/>
+  <ellipse cx="148" cy="236" rx="18" ry="24" fill="#F6C9B0"/>
+  <ellipse cx="364" cy="236" rx="18" ry="24" fill="#F6C9B0"/>
+
+  <!-- curly bangs -->
+  <path
+    d="M148 210
+       C152 130 200 100 256 96
+       C312 100 360 130 364 210
+       L340 182
+       L318 214
+       L292 174
+       L256 210
+       L220 174
+       L194 214
+       L172 182Z"
+    fill="#5C3317"
+  />
+
+  <!-- pink clips -->
+  <circle cx="156" cy="198" r="14" fill="#FF5C8A"/>
+  <circle cx="356" cy="198" r="14" fill="#FF5C8A"/>
+
+  <!-- eyes -->
+  <ellipse cx="214" cy="228" rx="22" ry="24" fill="#fff"/>
+  <ellipse cx="298" cy="228" rx="22" ry="24" fill="#fff"/>
+  <ellipse cx="214" cy="230" rx="14" ry="16" fill="#5C3317"/>
+  <ellipse cx="298" cy="230" rx="14" ry="16" fill="#5C3317"/>
+  <circle cx="220" cy="224" r="5" fill="#fff"/>
+  <circle cx="304" cy="224" r="5" fill="#fff"/>
+
+  <!-- blush + smile -->
+  <ellipse cx="186" cy="262" rx="18" ry="12" fill="#FF9BB0" opacity="0.85"/>
+  <ellipse cx="326" cy="262" rx="18" ry="12" fill="#FF9BB0" opacity="0.85"/>
+  <path d="M232 274c12 16 36 16 48 0" stroke="#E85A5A" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- story book -->
+  <path
+    d="M148 360
+       C148 348 364 348 364 360
+       L380 448
+       C380 464 340 476 256 476
+       C172 476 132 464 132 448Z"
+    fill="url(#book)"
+  />
+  <path d="M256 356v118" stroke="#fff" stroke-width="8" opacity="0.7"/>
+  <path d="M176 392h56M176 416h48M288 392h56M288 416h48" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="360" cy="372" r="28" fill="#FFB703"/>
+  <path d="M360 356l5 12 13 1-10 9 3 13-11-7-11 7 3-13-10-9 13-1z" fill="#fff"/>
 </svg>
