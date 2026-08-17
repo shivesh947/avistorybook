@@ -1,0 +1,14 @@
+UI sound effects bundled from Mixkit (https://mixkit.co/free-sound-effects/interface/).
+Licensed under the Mixkit License — free for commercial use.
+
+Mapped for Avi (Uppbeat-style button / UI feedback):
+  click.mp3      — Cool interface click tone
+  tap.mp3        — Select click
+  soft-click.mp3 — Interface option select
+  game-open.mp3  — Opening software interface
+  correct.mp3    — Page forward single chime
+  wrong.mp3      — Click error
+  success.mp3    — Game user interface tone
+
+To swap with Uppbeat downloads (https://uppbeat.io/sfx/category/click/button-click):
+replace these files with the same names after signing in and downloading.
